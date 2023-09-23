@@ -37,19 +37,14 @@ function is_get_request() {
     return $_SERVER['REQUEST_METHOD'] == 'GET';
 }
 
-function render_lesson_content($title, $md_url, $is_link=false) {
+function render_lesson_content() {
     $content = '';
-    if($is_link) {
-    echo "<li><a href=\"#$title\">$title</a></li>";
-    } else {
         $content .= '<li>';
-        $content .= "<h2 id=\"$title\">$title</h2>";
         $content .= '<p>';
-        $content .=  md("$md_url.md");
+        $content .=  md("./note.md");
         $content .= '</p>';
         $content .= '<a href="#top">--top--</a>';
         $content .= '<hr />';
         $content .= '</li>';
-    }
     echo $content;
    }
