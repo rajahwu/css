@@ -16,7 +16,7 @@ HTML and CSS standards
 #### Declaration block
 
 Selector
-Declaratoin
+Declaration
 Property
 Value
 
@@ -30,17 +30,13 @@ body {
 
 ```css
 /* Shorthand properties are defined with multiple values. */
-.class {
     padding: 10px 5px 20px 15px;
-}
 
 /* Longhand properties are defined with individual values. */
-.class {
     padding-top: 10px;
     padding-right: 5px;
     padding-bottom: 20px;
     padding-left: 15px;
-}
 ```
 
 ### Comments
@@ -54,12 +50,118 @@ body {
 Requires syntax for certain uses
 
 ```css
-#id {
-    padding: 10px 5px;
-}
+padding: 10px 5px;
 ```
 
 ## CSS values and units
+
+|Property|Value|
+|--------|-----|
+|color|red|
+|color|#3c8453|
+|color|rgb(205,133,63)|
+|font-size|10px|
+|font-size|1.2rem|
+|font-size|125%|
+|Property|Value|
+
+|Property|Value/Data Type|HTML|
+|--------|---------------|----|
+|color|<color\>|<p\></p\>|
+
+### Numeric Data Types
+
+* Number-based values
+* Used with or wihout units to define diffent styles
+
+```css
+width: 80%;
+height: 1vh;
+border-width: 2px;
+animation-iteration-coutn: 2;
+```
+
+* <integer\>
+    A whole number that can be negative or positive
+* <number\>
+    A whole number or a fraction with decimals
+* <percentage\>
+    A fraction of another value (usually a parent or ancestor element)
+    that uses a <number\> with a percentage unit
+* A <dimension\> is a number value with a unit
+  * Represents data types such as
+    <time\>, <resolution\>, <length\> and more
+
+```text
+<time> 12s, 5.5ms
+<resolution> 96dpi, 3dppx
+<length> 100px, 20vw
+```
+
+#### <length\>
+
+* Used to define a distance value
+    (such as **width** or **font-size**)
+* <number\> values are used with an
+    *absolute* or *relative* unit
+
+##### Absolute <length\> Units
+
+* Fixed units based on physical measurements
+* Pixels (px) are used for web
+
+```text
+px: pixels
+cm: centimeters
+mm: millimeters
+Q: quarter-millimeters
+in: inches
+pt: points
+```
+
+##### Relative <length\> Units
+
+* Define a length based on another length
+* **em** is relative to the font size of an ancestor element
+* **rem** is relative to the root (html) element
+* Viewport-based units are relative to the size of the browser viewport
+* **vw** is relative to the viewport width
+* **vh** is relative to the viewport height
+* **vmin** is the smaller of the **vw** or **vh**
+* **vmax** is the larger of the **vw** or **vh**
+
+```text
+1vw = 1% of the viewport width
+1vh = 1% of the viewport height
+1vmin = 1% of the smallaer of vw and vh
+1vmax = 1% of the larger of vw and vh
+```
+
+### Keywords
+
+* Textual data type
+* Predefined values that vary depending on the property
+* All valid keywords are [documented](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference) in the CSS specifications
+
+```css
+background: blue;
+font-size: medium;
+border-style: dashed;
+```
+
+### Functions
+
+* Function values can include more complex values
+* Start with the name of the function, followed by parentheses
+* One or more arguments are used to compute a value
+
+```css
+transform: rotate(90deg); /* Rotates an element */
+width: calc(80% - 20px); /* Calculates a value */
+background-image: url(my-image.jpg); /* Sets a background image */
+```
+
+[mdn CSS values and units](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units)
 
 ## The color property and values
 
