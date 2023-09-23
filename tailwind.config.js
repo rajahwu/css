@@ -1,0 +1,9 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./public/**/*.{html,js,php", "./training_modules/**/*.{html,js,php}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+

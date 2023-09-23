@@ -3,7 +3,6 @@ include_once('../private/initialize.php');
 include(SHARED_PATH . '/header.php');
 ?>
 
-
 <h1>CSS Traning</h1>
 <a href="./public/links.php" target="_blank">Links</a>
 
