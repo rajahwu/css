@@ -12,6 +12,6 @@
     <div id="header">
       <div id="navigation">
         <a id="nav-back-link" href=".."><img width="36" height="36" src="/apps/Training/css/public/assets/arrow_back_left_icon.svg" alt="back button icon"></a>
-        <a class="btn btn-ghost normal-case text-3xl text-yellow-300 font-mono font-bold" href="/apps/Training/css/public/">HOME</a>
+        <a class="font-mono text-3xl font-bold text-yellow-300 normal-case btn btn-ghost" href="/apps/Training/css/public/">HOME</a>
       </div>
     </div>
