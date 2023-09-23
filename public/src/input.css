@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+#main {
+    @apply bg-blue-400
+}
+
+#header {
+    @apply mb-5
+}
+
+#navigation {
+    @apply navbar bg-slate-700 text-white 
+}
+
+#nav-back-link {
+    @apply btn btn-ghost normal-case text-xl 
+}

@@ -1,8 +1,7 @@
 <?php
-include_once('../training_module_init.php'); ?>
-<ul class="prose">
-    <?php
-    render_lesson_content("css core concept", "./note");
-    echo '</ul>';
-    include(SHARED_PATH . '/footer.php');
-    ?>
+include_once('../training_module_init.php'); 
+include('./shared/training_card_css.php');
+render_lesson_content(strtoupper("css core concepts"), "./note");
+echo '</ul></div>'; ?>
+<?php include(SHARED_PATH . '/footer.php');
+?>

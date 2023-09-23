@@ -11,6 +11,6 @@
   <div id="main">
     <div id="header">
       <div id="navigation">
-        <a href="..">back</a>
+        <a id="nav-back-link" href=".."><img width="36" height="36" src="/apps/Training/css/public/assets/arrow_back_left_icon.svg" alt="back button icon"></a>
       </div>
     </div>
