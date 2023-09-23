@@ -1,5 +1,10 @@
 # CSS Core Concepts
 
+## CSS specifications and the W3C
+
+[w3c cascading style sheets home page](https://www.w3.org/Style/CSS/)
+![w3c specification page](./images/w3c-stylesheets.gif)
+
 ## CSS syntax and terminology
 
 ## CSS values and units
