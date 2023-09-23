@@ -2202,6 +2202,46 @@ html {
   color: rgb(254 240 138 / var(--tw-text-opacity));
 }
 
+.prose-h3\:text-yellow-200 :is(:where(h3):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
+  --tw-text-opacity: 1;
+  color: rgb(254 240 138 / var(--tw-text-opacity));
+}
+
+.prose-h4\:text-yellow-200 :is(:where(h4):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
+  --tw-text-opacity: 1;
+  color: rgb(254 240 138 / var(--tw-text-opacity));
+}
+
+.prose-h4\:text-stone-100 :is(:where(h4):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
+  --tw-text-opacity: 1;
+  color: rgb(245 245 244 / var(--tw-text-opacity));
+}
+
+.prose-h4\:text-stone-400 :is(:where(h4):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
+  --tw-text-opacity: 1;
+  color: rgb(168 162 158 / var(--tw-text-opacity));
+}
+
+.prose-h4\:text-stone-300 :is(:where(h4):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
+  --tw-text-opacity: 1;
+  color: rgb(214 211 209 / var(--tw-text-opacity));
+}
+
+.prose-h4\:text-orange-500 :is(:where(h4):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
+  --tw-text-opacity: 1;
+  color: rgb(249 115 22 / var(--tw-text-opacity));
+}
+
+.prose-p\:text-yellow-100 :is(:where(p):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
+  --tw-text-opacity: 1;
+  color: rgb(254 249 195 / var(--tw-text-opacity));
+}
+
+.prose-p\:text-stone-100 :is(:where(p):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
+  --tw-text-opacity: 1;
+  color: rgb(245 245 244 / var(--tw-text-opacity));
+}
+
 .prose-a\:capitalize :is(:where(a):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
   text-transform: capitalize;
 }
@@ -2209,6 +2249,21 @@ html {
 .prose-a\:text-orange-500 :is(:where(a):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
   --tw-text-opacity: 1;
   color: rgb(249 115 22 / var(--tw-text-opacity));
+}
+
+.prose-code\:bg-sky-950 :is(:where(code):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(8 47 73 / var(--tw-bg-opacity));
+}
+
+.prose-code\:text-lime-400 :is(:where(code):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
+  --tw-text-opacity: 1;
+  color: rgb(163 230 53 / var(--tw-text-opacity));
+}
+
+.prose-pre\:bg-cyan-950 :is(:where(pre):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(8 51 68 / var(--tw-bg-opacity));
 }
 
 .prose-img\:rounded-xl :is(:where(img):not(:where([class~="not-prose"],[class~="not-prose"] *))) {

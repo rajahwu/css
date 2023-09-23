@@ -7,6 +7,58 @@
 
 ## CSS syntax and terminology
 
+HTML and CSS standards
+
+[Code Guide](https://codeguide.co/)
+
+### CSS Rule
+
+#### Declaration block
+
+Selector
+Declaratoin
+Property
+Value
+
+```css
+body {
+    background: paleturquoise;
+}
+```
+
+### Short and Longhand Properties
+
+```css
+/* Shorthand properties are defined with multiple values. */
+.class {
+    padding: 10px 5px 20px 15px;
+}
+
+/* Longhand properties are defined with individual values. */
+.class {
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+}
+```
+
+### Comments
+
+```css
+/* CSS comment */
+```
+
+### Whitespace
+
+Requires syntax for certain uses
+
+```css
+#id {
+    padding: 10px 5px;
+}
+```
+
 ## CSS values and units
 
 ## The color property and values
