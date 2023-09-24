@@ -295,6 +295,31 @@ h2 {
 
 ## ID selectors
 
+* Match a single unique element
+* Add an ID attribute to the HTML element
+
+```html
+<header id-"custom-name"></header>
+```
+
+* The attribute value is the selector, starting with number symbol (#)
+
+```css
+#custom-name {
+    background: lightblue;
+}
+```
+
+* Don't use spaces
+* Separate words with a dash, an underscore, or camel casing
+
+```text
+id="idname"
+id="id_name"
+id="idn-ame"
+id="idName"
+```
+
 ## Class selectors
 
 ## Descendant combinators and selector lists
