@@ -1,5 +1,5 @@
 # Use an official PHP runtime with Apache as a parent image (Debian Buster)
-FROM php:8.2-cli
+FROM php:8.0-apache
 
 # Set the working directory to /var/www/html/
 WORKDIR /var/www/html/
@@ -21,6 +21,11 @@ RUN chown -R www-data:www-data /var/www/html
 
 # Install npm and Node.js
 RUN apt-get update && apt-get install -y nodejs npm
+
+# Install Composer
+RUN php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+RUN php composer-setup.php --install-dir=/usr/local/bin --filename=composer
+RUN php -r "unlink('composer-setup.php');"
 
 # Install Composer dependencies
 RUN composer install
