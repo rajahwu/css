@@ -165,6 +165,33 @@ background-image: url(my-image.jpg); /* Sets a background image */
 
 ## The color property and values
 
+### color
+
+The **color** property changes an element's text color
+    and  text decorations (such as underline or strikethrough).
+It is defined with different ypes of <color\> values.
+
+#### Keyword values
+
+```css
+/* Predefined keywords */
+color: red;
+color: blue;
+color: green;
+color: black;
+color: mediumseagreen;
+color: oldlace;
+color: blanchedalmond;
+color: conflowerblue;
+color: darkslategray;
+```
+
+#### [Named color](https://developer.mozilla.org/en-US/docs/Web/CSS/named-color)
+
+![basic colors](./images/basic-colors.png)
+
+[color guide](https://colours.neilorangepeel.com/)
+
 ## Creating a color palette
 
 ## Type and universal selectores
