@@ -192,6 +192,69 @@ color: darkslategray;
 
 [color guide](https://colours.neilorangepeel.com/)
 
+### RGB funciton values
+
+```css
+/* Syntax */
+rgb([red] [green] [blue])
+color: rgb(0 0 0); /* Black */
+color: rgb(255  255 255); /* White */
+color: rgb(255 0 0); /* A shade of red */
+color: rgb(0 255 0); /* A shade of green */
+color: rgb(0 0 255); /* A shade of blue */
+
+color: rgb(0 0 0 / 0.5); /* Black with 50% opacity */
+color: rgb(0 0 255 / 25%); /* Blue wiht 25% opacity */
+
+/* Legacy syntax with comma-separated values */
+color: rgb(255, 255, 255);
+color: rgba(255, 255, 255, .5);
+```
+
+### RGB hexadecimal values
+
+```css
+/* Syntax */
+#rrggbb or #RRGGBB
+
+color: #000000; /* Black */
+color: #ffffff; /* White */
+color: #ff0000; /* A shade of red */
+color: #008000; /* A shade of green */
+color: #0000ff; /* A shade of blue */
+
+/* Shorthand */
+color: #000;
+color: #f00;
+
+/* With alpha channel */
+#rrggbba or#rrggbbaa
+
+color: #9ACD320; /* Yellowgreen with no opacity (full transparency) */
+color: #9ACD32FF; /* Yellowgreen with full opacity (no transparency) */
+```
+
+* Use a base-16 hexadecimal nuber system
+* Sixteen symbols are used to denote the values from 0 to 15 (0-9,A-F)
+
+|0|1|2|3|4|5|6|7|8|9|A|B|C|D|E|F|
+|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
+|0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|
+
+* The alpha channel uses the base-16 system
+
+```css
+color: #9ACD321A; /* Yellowgreen with 10% transparency */
+color: rgb(154 205 50 / 10%); /* Yellowgreen with 10% transparency */
+color: rgb(154 205 50 / 0.1); /* Yellowgreen with 10% transparency */
+```
+
+[hex opacity table](https://davidwalsh.name/hex-opacity)
+
+[how to understand hexadecimal](https://www.wikihow.com/Understand-Hexadecimal)
+
+[all color value options](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value)
+
 ## Creating a color palette
 
 ## Type and universal selectores
