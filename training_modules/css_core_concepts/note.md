@@ -257,7 +257,41 @@ color: rgb(154 205 50 / 0.1); /* Yellowgreen with 10% transparency */
 
 ## Creating a color palette
 
+[canva](https://www.canva.com/colors/)
+
+[coolors.co](https://coolors.co/)
+
 ## Type and universal selectores
+
+### CSS selectors
+
+* Used to **select** specific HTML elements and apply styles
+* Different **types** of selectors are used to determine
+    **which** element the style should be appliled to
+
+#### Type selector
+
+* Also referred to as *element selector*
+* Matches to the element name but without the angled brackets
+
+```css
+/* This style will apply ato all <h2> elements. */
+h2 {
+    color: darkslategray;
+}
+```
+
+#### Universal Selector
+
+* Selects **all** elements on the HTML page using an asterisk (*)
+* May cause performance issues and should be used sparingly
+
+```css
+* {
+    /* This style will apply to ALL the elements */
+    border: 1px solid black;
+}
+```
 
 ## ID selectors
 
