@@ -320,6 +320,8 @@ id="idn-ame"
 id="idName"
 ```
 
+* Use descriptive name
+
 ## Class selectors
 
 ## Descendant combinators and selector lists

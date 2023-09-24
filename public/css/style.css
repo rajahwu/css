@@ -1799,10 +1799,6 @@ html {
   width: 16rem;
 }
 
-.list-image-\[url\(\/apps\/Training\/css\/public\/assets\/images\/bullet-point\.svg\)\] {
-  list-style-image: url(/apps/Training/css/public/assets/images/bullet-point.svg);
-}
-
 .flex-col {
   flex-direction: column;
 }
@@ -2172,11 +2168,6 @@ html {
     --tw-bg-opacity: 1;
     background-color: hsl(var(--b2) / var(--tw-bg-opacity));
   }
-
-  .prose-table\:table-zebra :is(:where(table):not(:where([class~="not-prose"],[class~="not-prose"] *))) tr.hover:hover,.prose-table\:table-zebra :is(:where(table):not(:where([class~="not-prose"],[class~="not-prose"] *))) tr.hover:nth-child(even):hover {
-    --tw-bg-opacity: 1;
-    background-color: hsl(var(--b3) / var(--tw-bg-opacity));
-  }
 }
 
 .prose-table\:table :is(:where(table):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
@@ -2212,11 +2203,6 @@ html {
   background-color: hsl(var(--b1) / var(--tw-bg-opacity));
 }
 
-.prose-table\:table-zebra :is(:where(table):not(:where([class~="not-prose"],[class~="not-prose"] *))) tbody tr:nth-child(even) :where(.table-pin-cols tr th) {
-  --tw-bg-opacity: 1;
-  background-color: hsl(var(--b2) / var(--tw-bg-opacity));
-}
-
 .prose-table\:table :is(:where(table):not(:where([class~="not-prose"],[class~="not-prose"] *))) :where(th, td) {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -2228,16 +2214,6 @@ html {
 .prose-table\:table :is(:where(table):not(:where([class~="not-prose"],[class~="not-prose"] *))) tr.active,.prose-table\:table :is(:where(table):not(:where([class~="not-prose"],[class~="not-prose"] *))) tr.active:nth-child(even) {
   --tw-bg-opacity: 1;
   background-color: hsl(var(--b2) / var(--tw-bg-opacity));
-}
-
-.prose-table\:table-zebra :is(:where(table):not(:where([class~="not-prose"],[class~="not-prose"] *))) tbody tr:nth-child(even) {
-  --tw-bg-opacity: 1;
-  background-color: hsl(var(--b2) / var(--tw-bg-opacity));
-}
-
-.prose-table\:table-zebra :is(:where(table):not(:where([class~="not-prose"],[class~="not-prose"] *))) tr.active,.prose-table\:table-zebra :is(:where(table):not(:where([class~="not-prose"],[class~="not-prose"] *))) tr.active:nth-child(even) {
-  --tw-bg-opacity: 1;
-  background-color: hsl(var(--b3) / var(--tw-bg-opacity));
 }
 
 .prose-table\:table :is(:where(table):not(:where([class~="not-prose"],[class~="not-prose"] *))) :where(thead, tbody) :where(tr:not(:last-child)),.prose-table\:table :is(:where(table):not(:where([class~="not-prose"],[class~="not-prose"] *))) :where(thead, tbody) :where(tr:first-child:last-child) {
@@ -2252,30 +2228,6 @@ html {
   line-height: 1rem;
   font-weight: 700;
   color: hsl(var(--bc) / 0.6);
-}
-
-.prose-table\:table-xs :is(:where(table):not(:where([class~="not-prose"],[class~="not-prose"] *))) :not(thead):not(tfoot) tr {
-  font-size: 0.75rem;
-  line-height: 1rem;
-}
-
-.prose-table\:table-xs :is(:where(table):not(:where([class~="not-prose"],[class~="not-prose"] *))) :where(th, td) {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
-}
-
-.prose-table\:table-sm :is(:where(table):not(:where([class~="not-prose"],[class~="not-prose"] *))) :not(thead):not(tfoot) tr {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-
-.prose-table\:table-sm :is(:where(table):not(:where([class~="not-prose"],[class~="not-prose"] *))) :where(th, td) {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
 }
 
 @media (min-width: 640px) {
@@ -2327,11 +2279,6 @@ html {
   color: rgb(249 115 22 / var(--tw-text-opacity));
 }
 
-.prose-h5\:text-blue-800 :is(:where(h5):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
-  --tw-text-opacity: 1;
-  color: rgb(30 64 175 / var(--tw-text-opacity));
-}
-
 .prose-h5\:text-yellow-300 :is(:where(h5):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
   --tw-text-opacity: 1;
   color: rgb(253 224 71 / var(--tw-text-opacity));
@@ -2370,11 +2317,6 @@ html {
   list-style-image: url(/apps/Training/css/public/assets/images/bullet-point.svg);
 }
 
-.prose-li\:text-slate-200 :is(:where(li):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
-  --tw-text-opacity: 1;
-  color: rgb(226 232 240 / var(--tw-text-opacity));
-}
-
 .prose-li\:text-stone-100 :is(:where(li):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
   --tw-text-opacity: 1;
   color: rgb(245 245 244 / var(--tw-text-opacity));
@@ -2382,11 +2324,6 @@ html {
 
 .prose-table\:table :is(:where(table):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
   display: table;
-}
-
-.prose-thead\:text-yellow-300 :is(:where(thead):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
-  --tw-text-opacity: 1;
-  color: rgb(253 224 71 / var(--tw-text-opacity));
 }
 
 .prose-th\:text-yellow-300 :is(:where(th):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
